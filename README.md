@@ -1,7 +1,7 @@
 
-<p align="left"><b><a href="https://github.com/katzer/cordova-plugin-badge/tree/example">SAMPLE APP</a> :point_right:</b></p>
+<p align="left"><b><a href="https://github.com/uofa/cordova-plugin-badge-ios15/tree/example">SAMPLE APP</a> :point_right:</b></p>
 
-# Cordova Badge Plugin <br> [![npm version](https://badge.fury.io/js/cordova-plugin-badge.svg)](https://badge.fury.io/js/cordova-plugin-badge) [![Code Climate](https://codeclimate.com/github/katzer/cordova-plugin-badge/badges/gpa.svg)](https://codeclimate.com/github/katzer/cordova-plugin-badge) [![PayPayl donate button](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L3HKQCD9UA35A "Donate once-off to this project using Paypal")
+# Cordova Badge Plugin <br> [![npm version](https://badge.fury.io/js/cordova-plugin-badge-ios15.svg)](https://badge.fury.io/js/cordova-plugin-badge-ios15) [![Code Climate](https://codeclimate.com/github/uofa/cordova-plugin-badge-ios15/badges/gpa.svg)](https://codeclimate.com/github/uofa/cordova-plugin-badge-ios15) [![PayPayl donate button](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L3HKQCD9UA35A "Donate once-off to this project using Paypal")
 
 [Cordova][cordova] plugin to access and modify the badge number of the app icon on various mobile platforms including iOS, Android and Windows.
 
@@ -30,15 +30,15 @@ The plugin can be installed via [Cordova-CLI][CLI] and is publicly available on 
 
 Execute from the projects root folder:
 
-    $ cordova plugin add cordova-plugin-badge
+    $ cordova plugin add cordova-plugin-badge-ios15
 
 Or install a specific version:
 
-    $ cordova plugin add cordova-plugin-badge@VERSION
+    $ cordova plugin add cordova-plugin-badge-ios15@VERSION
 
 Or install the latest head version:
 
-    $ cordova plugin add https://github.com/katzer/cordova-plugin-badge.git
+    $ cordova plugin add https://github.com/uofa/cordova-plugin-badge-ios15.git
 
 Or install from local source:
 
@@ -193,7 +193,7 @@ Made with :yum: from Leipzig
 [shortcut_badger]: https://github.com/leolin310148/ShortcutBadger
 [favico_js]: http://lab.ejci.net/favico.js/
 [CLI]: http://cordova.apache.org/docs/en/edge/guide_cli_index.md.html#The%20Command-line%20Interface
-[npm]: https://www.npmjs.com/package/cordova-plugin-badge
+[npm]: https://www.npmjs.com/package/cordova-plugin-badge-ios15
 [gradle-guide]: https://cordova.apache.org/docs/en/latest/guide/platforms/android/#configuring-gradle
 [apache2_license]: http://opensource.org/licenses/Apache-2.0
 [appplant]: http://appplant.de

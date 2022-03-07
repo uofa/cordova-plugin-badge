@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-badge",
+  "name": "cordova-plugin-badge-ios15",
   "version": "0.8.9",
   "description": "Shows the count of unread messages as a badge on the app icon.",
   "cordova": {
-    "id": "cordova-plugin-badge",
+    "id": "cordova-plugin-badge-ios15",
     "platforms": [
       "ios",
       "osx",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/katzer/cordova-plugin-badge.git"
+    "url": "git+https://github.com/uofa/cordova-plugin-badge-ios15.git"
   },
   "keywords": [
     "appplant",
@@ -48,7 +48,7 @@
   "author": "Sebastián Katzer",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/katzer/cordova-plugin-badge/issues"
+    "url": "https://github.com/uofa/cordova-plugin-badge-ios15/issues"
   },
-  "homepage": "https://github.com/katzer/cordova-plugin-badge#readme"
+  "homepage": "https://github.com/uofa/cordova-plugin-badge-ios15#readme"
 }
