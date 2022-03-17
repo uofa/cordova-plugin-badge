@@ -20,6 +20,7 @@ var exec      = require('cordova/exec'),
     ua        = navigator.userAgent.toLowerCase(),
     isIOS     = ua.indexOf('ipad') > -1 || ua.indexOf('iphone') > -1,
     isMac     = ua.indexOf('macintosh') > -1,
+    isMobile  = ua.indexOf('mobile') > -1,
     isWin     = window.Windows !== undefined,
     isAndroid = !isWin && ua.indexOf('android') > -1,
     isWinPC   = isWin && Windows.System.Profile.AnalyticsInfo.versionInfo.deviceFamily.includes('Desktop'),
@@ -126,7 +127,7 @@ exports.isSupported = function (callback, scope) {
  * @return [ Void ]
  */
 exports.hasPermission = function (callback, scope) {
-    if (isIOS) {
+    if (isIOS || (isMac && isMobile)) {
         this.exec('check', null, callback, scope);
     } else {
         this.createCallbackFn(callback, scope)(true);
@@ -142,7 +143,7 @@ exports.hasPermission = function (callback, scope) {
  * @return [ Void ]
  */
 exports.requestPermission = function (callback, scope) {
-    if (isIOS) {
+    if (isIOS || (isMac && isMobile)) {
         this.exec('request', null, callback, scope);
     } else {
         this.createCallbackFn(callback, scope)(true);
