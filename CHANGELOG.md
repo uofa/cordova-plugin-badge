@@ -1,5 +1,8 @@
 ## ChangeLog
 
+#### Version 0.8.10 (23.04.2023)
+- Fix iOS 15 detection
+
 #### Version 0.8.9 (22.04.2023)
 - Changed gradle compile to implementation
 
@@ -16,7 +19,7 @@
 
 #### Version 0.8.5 (23.10.2017)
 - Upgrade ShortcutBadger to v1.1.19
-- BadgeImpl class can now be used from other Android plugins. 
+- BadgeImpl class can now be used from other Android plugins.
 
 #### Version 0.8.4 (17.10.2017)
 - Fix _autoClear_ for desktop platforms.
